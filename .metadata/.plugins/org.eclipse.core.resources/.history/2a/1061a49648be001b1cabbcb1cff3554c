@@ -1,0 +1,19 @@
+package repeticao;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		
+		//Solicite o nome do cliente e o email
+		//Pergunte se ele deseja dicionar itens a sua compra
+		//Se sim, pedir nome do produto, valor, e quantidade
+		//Exibir para cada produto o total de cada um
+		//Quando terminar de adicionar produtos, exibir o total da compra
+		
+		
+		
+		
+		
+	}
+	
+}

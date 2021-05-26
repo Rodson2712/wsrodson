@@ -1,0 +1,24 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class CalculoProduto {
+
+	public static void main(String[] args) {
+	
+	
+	//nome do produto, quantidade, valor unitario, 
+		// exibir no final: Nome do produto, valor total, valor do importo 17% sobre o total
+	
+	
+		String nome = JOptionPane.showInputDialog("Produto:");
+		int qtd = Integer.parseInt(JOptionPane.showInputDialog("Quantidade:")); 
+		double valor = Double.parseDouble(JOptionPane.showInputDialog("Valor:"));
+		double imposto = (0.17);
+		double total = (valor * imposto);
+		
+		System.out.println("Nome do produto: "+nome);
+		System.out.println("Valor total: "+total);
+		
+}
+}

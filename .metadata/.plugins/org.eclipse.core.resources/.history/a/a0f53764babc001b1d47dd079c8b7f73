@@ -1,0 +1,34 @@
+ package variaveis;
+
+public class TiposDados {
+	// Chave de ignição --- Start de toda app java
+	public static void main(String[] args) {
+	
+		// Sitaxe para criar variavel: <Tipo> <Nome> = <Dado>;
+		//
+		//
+		//Alfanumerico: Texto, parte de texto, ou numero que nao sera utilizado em operacao matematica
+		//
+		//Numerico: Dado que pode ser utilizado em operacao matematica ou é critico
+		//
+		//- int => Numeros inteiros
+		//- double => Numeros com casas decimais
+		//
+		String nome = "Rodson"; 
+		int idade = 37;
+		double altura = 1.73;
+		
+		System.out.println(nome);
+		System.out.println(idade);
+		System.out.println(altura);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+}
+}

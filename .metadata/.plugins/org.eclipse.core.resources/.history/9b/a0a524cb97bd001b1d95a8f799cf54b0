@@ -1,0 +1,38 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+import java.util.Arrays;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		
+		// * Exercicio 4:
+		 //* Receba três números inteiros e coloque-os em ordem numérica
+		 //* crescente. Garanta que os três números sejam diferentes.
+		
+		int valor1 = Integer.parseInt(JOptionPane.showInputDialog("Valor1: "));
+		int valor2 = Integer.parseInt(JOptionPane.showInputDialog("Valor2: "));
+		int valor3 = Integer.parseInt(JOptionPane.showInputDialog("Valor3: "));
+		
+		if (valor1 != valor2 && valor1 != valor3){
+			
+		}
+		
+		if (valor2 != valor1 && valor2 != valor3){
+			
+		}
+		
+		if (valor3 != valor2 && valor3 != valor1){
+			
+		}
+		int[] arr = {valor1, valor2, valor3};
+		
+		Arrays.sort(arr);
+		 
+        System.out.println("Numeros : " + Arrays.toString(arr));
+		
+	}
+	
+	
+}
